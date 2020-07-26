@@ -260,7 +260,8 @@ body {
     position: relative;
     background-attachment: scroll;
     resize: both;
-    display:inline-block;   
+    display:inline-block; 
+    padding-bottom: 3%;
 }
 
 #profile-pic {
@@ -269,7 +270,7 @@ body {
 }
 
 .home-left {
-    padding: 4% 4% 2% 4%;
+    padding: 4% 4% 0 4%;
     width:15%;
     float:left;
 }
@@ -307,7 +308,8 @@ body {
     background-attachment: scroll;
     resize: both;
     display: inline-block;
-    text-align:center;
+    text-align: center;
+    padding-bottom: 3%;
 }
 
 #education {
@@ -318,12 +320,19 @@ body {
     resize: both;
     display: inline-block;
     text-align: center;
+    padding-bottom: 3%;
 }
 
 .edu-box{
     width: 30%;
     display:inline-block;
     margin:1%;
+    border: 2px solid Black;
+}
+
+.edu-box img{
+    padding:1.5%;
+    width:10%;
 }
 
 
@@ -335,6 +344,7 @@ body {
     resize: both;
     display: inline-block;
     text-align: center;
+    padding-bottom: 3%;
 }
 
 
