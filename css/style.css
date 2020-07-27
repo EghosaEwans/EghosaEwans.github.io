@@ -261,7 +261,6 @@ body {
     background-attachment: scroll;
     resize: both;
     display:inline-block; 
-    padding-bottom: 3%;
 }
 
 #profile-pic {
@@ -309,7 +308,6 @@ body {
     resize: both;
     display: inline-block;
     text-align: center;
-    padding-bottom: 3%;
 }
 
 #education {
@@ -320,20 +318,19 @@ body {
     resize: both;
     display: inline-block;
     text-align: center;
-    padding-bottom: 3%;
 }
 
 .edu-box{
-    width: 30%;
-    display:inline-block;
-    margin:1%;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
     border: 2px solid Black;
 }
 
 .edu-box img{
     padding:1.5%;
     width:10%;
-}
+} 
 
 
 #projects {
@@ -344,7 +341,6 @@ body {
     resize: both;
     display: inline-block;
     text-align: center;
-    padding-bottom: 3%;
 }
 
 
@@ -417,6 +413,14 @@ body {
     #content ul {
         font-size: 1rem;
     }
+
+    .edu-box {
+        display: inline-block;
+        margin: 1%;
+        width: 30%;
+        margin-bottom: 0;
+    }
+
 
     .footer{
         height: 38px;
