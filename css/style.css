@@ -291,13 +291,22 @@ body {
     padding: 1% 0 1% 0;
 }
 
-#content p {
+#content h2 {
     font-size: 1rem;
+    font-weight: normal;
+}
+
+#content p {
+    font-size: 0.8rem;
     width: 100%;
 }
 
 #content ul{
     font-size: 0.8rem;
+}
+
+.end-line{
+    padding-bottom: 1.5%;
 }
 
 #work-exp {
@@ -406,8 +415,12 @@ body {
         font-size: 2rem;
     }
 
-    #content p{
+    #content h2 {
         font-size: 1.5rem;
+    }
+
+    #content p{
+        font-size: 1rem;
     }
 
     #content ul {
@@ -461,8 +474,12 @@ body {
         font-size: 2.5rem;
     }
 
-    #content p {
+    #content h2 {
         font-size: 2rem;
+    }
+
+    #content p {
+        font-size: 1.5rem;
     }
 
     #content ul {
