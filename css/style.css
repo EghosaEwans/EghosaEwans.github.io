@@ -243,9 +243,19 @@ body {
    
 }
 
+.nav-display ul li:hover{
+    filter: brightness(90%);
+   
+}
+
 .nav a{
-    color: inherit;
-    text-decoration: inherit;
+    color: #F5F5F7;
+    text-decoration: none; 
+}
+
+.nav-display a{
+    color: #F5F5F7;
+    text-decoration: none; 
 }
 
 .fixed{
